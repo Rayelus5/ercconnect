@@ -23,6 +23,8 @@
         <link href="css/apexcharts.css" rel="stylesheet">
 
         <link href="css/tooplate-mini-finance.css" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/fk2k5Mn/favicon.jpg">
 <!--
 
 Tooplate 2135 Mini Finance
@@ -417,8 +419,8 @@ TABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLA
                             <div class="custom-block custom-block-balance">
                                 <small>DAO Balance</small>
 
-                                <h2 class="mt-4 mb-2">$315,36</h2>
-                                <h4 class="mt-2 mb-2">0.0875 ETH</h4>
+                                <h2 class="mt-4 mb-2"><span id="daoETH">0.1045</span> <span style="font-size: 30px;">ETH</span></h2>
+                                <h4 style="color: #1a1a35af;" class="mt-2 mb-2"><span id="daoUSD">327,61</span> <span style="font-size: 20px;">USD</span></h4>
 
                                 <div class="custom-block-numbers d-flex align-items-center">
                                     <p style="font-size: 12px;">0x4c3e46a497b2db83e5ce5b512395df16d576b052</p>
@@ -461,6 +463,7 @@ TABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLATABLA
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/apexcharts.min.js"></script>
         <script src="js/custom.js"></script>
+        <script src="js/main.js"></script>
         <script>
             document.addEventListener('DOMContentLoaded', () => {
                 var disclaimer = document.querySelector("img[alt='www.000webhost.com']");

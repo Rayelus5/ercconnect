@@ -23,6 +23,8 @@
         <link href="css/apexcharts.css" rel="stylesheet">
 
         <link href="css/tooplate-mini-finance.css" rel="stylesheet">
+
+        <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/fk2k5Mn/favicon.jpg">
 <!--
 
 Tooplate 2135 Mini Finance
@@ -247,8 +249,9 @@ Bootstrap 5 Dashboard Admin Template
                                 <small>DAO Balance</small>
 
                                 
-                                <h2 class="mt-4 mb-2">$315,36</h2>
-                                <h4 class="mt-2 mb-2">0.0875 ETH</h4>
+                                <h2 class="mt-4 mb-2"><span id="daoETH">0.1045</span> <span style="font-size: 30px;">ETH</span></h2>
+                                <h4 style="color: #1a1a35af;" class="mt-2 mb-2"><span id="daoUSD">327,61</span> <span style="font-size: 20px;">USD</span></h4>
+                                
                                 
                                 <script src="https://widgets.coingecko.com/coingecko-coin-price-marquee-widget.js"></script>
 <coingecko-coin-price-marquee-widget  coin-ids="ethereum" currency="usd" background-color="#ffffff" locale="es"></coingecko-coin-price-marquee-widget>
@@ -353,7 +356,7 @@ Bootstrap 5 Dashboard Admin Template
 
                                     <div class="ms-auto">
                                         <small>01/12/2023</small>
-                                        <strong class="d-block text-success"><span class="me-1"></span> $0</strong>
+                                        <strong class="d-block text-success"><span class="me-1"></span> $<span id="daoADMIN1"></span></strong>
                                     </div>
                                     <!--text-success or text-danger-->
                                 </div>
@@ -373,7 +376,7 @@ Bootstrap 5 Dashboard Admin Template
 
                                     <div class="ms-auto">
                                         <small>01/12/2023</small>
-                                        <strong class="d-block text-success"><span class="me-1"></span> $0</strong>
+                                        <strong class="d-block text-success"><span class="me-1"></span> $<span id="daoADMIN2"></span></strong>
                                     </div>
                                     <!--text-success or text-danger-->
                                 </div>
@@ -393,7 +396,7 @@ Bootstrap 5 Dashboard Admin Template
 
                                     <div class="ms-auto">
                                         <small>01/12/2023</small>
-                                        <strong class="d-block text-success"><span class="me-1"></span> $0</strong>
+                                        <strong class="d-block text-success"><span class="me-1"></span> $<span id="daoADMIN3"></span></strong>
                                     </div>
                                     <!--text-success or text-danger-->
                                 </div>
@@ -402,7 +405,7 @@ Bootstrap 5 Dashboard Admin Template
                             </div>
 
                             <div class="custom-block custom-block-transations">
-                                <h5 class="mb-4">Pool Activa</h5>
+                                <h5 class="mb-4">Pool de Liquidez</h5>
 
                                 <div class="d-flex flex-wrap align-items-center mb-4">
                                     <div class="d-flex align-items-center">
@@ -545,5 +548,6 @@ Bootstrap 5 Dashboard Admin Template
         }
     });
 </script>
+<script src="js/main.js"></script>
     </body>
 </html>
