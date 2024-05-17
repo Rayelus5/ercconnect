@@ -1,135 +1,166 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-  <head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ERC Place</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,900|Source+Serif+Pro&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="fonts/icomoon/style.css">
-
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
-    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-    <link rel="stylesheet" href="css/aos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" type="image/x-icon" href="https://i.ibb.co/fk2k5Mn/favicon.jpg">
+    <!--<link rel="stylesheet" href="style.css">-->
+</head>
 
-    <!-- MAIN CSS -->
-    <link rel="stylesheet" href="css/style.css">
+<style>
+    * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        background-color: #151515;
+        color: #fff;
+    }
 
-  </head>
+    html {
+        height: 100%;
+    }
 
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    body {
+        font-family: 'Manrope', sans-serif;
+        font-size: 16px;
+        height: 100%;
+    }
 
-    
-    <div class="site-wrap" id="home-section">
+    .grid {
+        display: grid;
+        grid-template-rows: 6rem 5rem 40rem 5rem;
+        grid-template-columns: 20% auto 20%;
+        font-size: 1.5rem;
+        height: 100%;
+    }
 
-      <div class="site-mobile-menu site-navbar-target">
-        <div class="site-mobile-menu-header">
-          <div class="site-mobile-menu-close mt-3">
-            <span class="icon-close2 js-menu-toggle"></span>
-          </div>
-        </div>
-        <div class="site-mobile-menu-body"></div>
-      </div>
+    @media (max-width: 480px) {
+        
+        .grid {
+            grid-template-rows:
+                6rem 6rem 6rem auto 6rem 6rem;
+            grid-template-columns: 1fr;
+        }
 
+        aside,
+        main {
+            grid-column: 1 / 4;
+        }
+    }
 
+    nav,
+    header,
+    footer {
 
-      <header class="site-navbar site-navbar-target" role="banner">
+        grid-column: 1 / 4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-        <div class="container">
-          <div class="row align-items-center position-relative">
+    nav {
 
-            <div class="col-3">
-              <div class="site-logo">
-                <a href="index.html" class="font-weight-bold">ERC PLACE</a>
-              </div>
-            </div>
+    }
 
-            <div class="col-9  text-right">
-              
-
-              <span class="d-inline-block d-lg-none"><a href="#" class="text-primary site-menu-toggle js-menu-toggle py-5"><span class="icon-menu h3 text-primary"></span></a></span>
-
-              
-
-              <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
-                <ul class="site-menu main-menu js-clone-nav ml-auto ">
-                  <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="../ercconnect_final/.ERC-FINAL_dev/index.html" class="nav-link">Exit</a></li>
-                </ul>
-              </nav>
-            </div>
-
-
-            
-          </div>
-        </div>
-
-      </header>
-
-    
-    <div class="site-section-cover">
-      <div class="container">
-        <div class="row align-items-center text-center justify-content-center">
-          <div class="col-lg-11">
-            <h1 class="gradient-text mb-1" style="font-size: 75px; margin-top: 200px;" >Explore your place, connect with the future.</h1>
-            <!--<p><a href="https://vimeo.com/191947042" data-fancybox class="btn-video_38929"><span class="icon-play"></span></a></p>-->
-            <a href="place.html"><button style="margin-top: 100px;">Go to place</button></a>
-          </div>
-        </div>
-      </div>
-    </div>
+    aside,
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
-    
+    .footer {
+        text-align: center;
+        font-size: 15px;
+        color: #5f5f5f;
+    }
 
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/jquery-migrate-3.0.0.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.sticky.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/jquery.fancybox.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/bootstrap-datepicker.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/aos.js"></script>
+    .title-degradado {
+          font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
+          text-shadow: 0px 0px 15px rgba(255, 115, 250, 0.25);
+
+
+          font-size: 6rem;
+          font-weight: bold;
+          letter-spacing: 0.5px;
+          text-align: center;
+          color: #f35626;
+          background-image: -webkit-linear-gradient(92deg, #6708ff, #f13afe);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          -webkit-animation: hue 10s infinite linear;
+        }
   
-
-    <script src="js/typed.js"></script>
-            <script>
-            var typed = new Typed('.typed-words', {
-            strings: ["Business"," Startups"," Organization", " Company"],
-            typeSpeed: 80,
-            backSpeed: 80,
-            backDelay: 4000,
-            startDelay: 1000,
-            loop: true,
-            showCursor: true
-            });
-            </script>
-
-
-    <script src="js/main.js"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', () => {
-          var disclaimer = document.querySelector("img[alt='www.000webhost.com']");
-          if(disclaimer) {
-              disclaimer.remove();
+        @-webkit-keyframes hue {
+          0% {
+            -webkit-filter: hue-rotate(0deg);
           }
-      });
-  </script>
-  </body>
+          50% {
+            -webkit-filter: hue-rotate(-80deg);
+          }
+          100% {
+            -webkit-filter: hue-rotate(0deg);
+          }
+        }
+        .white-text {
+          color: #fff;
+        }
 
+        .title-button {
+            color: rgb(160, 160, 160); text-decoration: none; background-color: #151515; font-weight: bold; font-family: Helvetica, Arial, sans-serif; transition: 0.5s;
+        }
+
+        .title-button:hover {
+            color: #fff;
+            text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.7);
+        }
+
+        .container-button {
+            box-shadow: 0px 0px 5px #fff; padding: 15px; border-radius: 12px; transition: 0.7s;
+
+        }
+
+        .container-button:hover {
+            box-shadow: 0px 0px 15px #fff;
+        }
+</style>
+
+<body>
+
+    <div class="grid">
+        <header>
+        </header>
+
+        <nav></nav>
+
+        <aside class="sidebar-left"></aside>
+
+        <main>
+            <a style="text-decoration: none; background-color: #151515;" href="place.html"><h1 class="title-degradado">Explore your place, connect with the future.</h1></a>
+            
+        </main>
+        
+
+        <aside class="sidebar-right"></aside>
+        <footer>
+            <div class="container-button" style="margin-right: 50px;" ><a class="title-button" href="place.html">ERC Place</a></div>
+            
+            <div class="container-button" ><a class="title-button" href="../early-access/">ERC Connect</a></div>
+
+        </footer>
+<br>
+<br>
+        <footer class="footer">Created and Produced by Rayelus - ERC Connect © 2024 - 2025<br>All Rights Reserverd.</footer>
+<br>
+    </div>
+    
+</body>
 </html>
-
