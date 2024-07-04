@@ -44,20 +44,22 @@
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
 
-    <div id="announcement" class="announcement" style="margin-bottom: 70px; box-shadow: 0 0 20px red;">
-      <p style="color: #fff; font-size: 18px;">⚠️ WEB ACTUALMENTE EN DESARROLLO ⚠️<br>Creada por Rayelus para El Rincón Crypto</p>
-      <button onclick="ocultarAnuncio()" class="btn-warning"><b>Ocultar Mensaje</b></button>
-      <script>
-      function ocultarAnuncio() {
-        var x = document.getElementById("announcement");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
+      <!--
+      <div id="announcement" class="announcement" style="margin-bottom: 70px; box-shadow: 0 0 20px rgb(255, 74, 74);">
+        <p style="color: #fff; font-size: 18px;">⚠️ WEB ACTUALMENTE EN DESARROLLO ⚠️<br>Creada por Rayelus para El Rincón Crypto</p>
+        <button onclick="ocultarAnuncio()" class="btn-warning"><b>Ocultar Mensaje</b></button>
+        <script>
+        function ocultarAnuncio() {
+          var x = document.getElementById("announcement");
+          if (x.style.display === "none") {
+              x.style.display = "block";
+          } else {
+              x.style.display = "none";
+          }
         }
-      }
-      </script>
-  </div>
+        </script>
+      </div>
+      -->
 
 
       <div class="container d-flex align-items-center">
@@ -125,8 +127,10 @@
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <h1>Welcome to the BETA of ERC Connect</h1>
-            <h2>Your favourite ecosystem. Stay connected</h2>
+            <h1 style="font-size: 75px; line-height: 65px; background: linear-gradient(#E0B1CB 50%, #BE95C4 75%);
+            background-clip: text;
+            -webkit-text-fill-color: transparent;">Welcome back to ERC Connect</h1>
+            <h2 style="margin-top: 25px;">Stay Together, Stay Connected.</h2>
             <div class="d-flex justify-content-center justify-content-lg-start">
               <a href="#about" class="btn-get-started scrollto">Get Started</a>
               <a
@@ -256,7 +260,7 @@
                 cupidatat non proident, sunt in culpa qui officia deserunt
                 mollit anim id est laborum.
               </p>
-              <a href="#" class="btn-learn-more">Learn More</a>
+              <a href="#why-us" class="btn-learn-more">Learn More</a>
             </div>
           </div>
         </div>
@@ -295,7 +299,7 @@
                     ></a>
                     <div
                       id="accordion-list-1"
-                      class="collapse show"
+                      class="collapse"
                       data-bs-parent=".accordion-list"
                     >
                       <p style="color: #000">
@@ -362,9 +366,10 @@
 
             <div
               class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
-              style="background-image: url('assets/img/why-us.png')"
+              style="background-image: url('assets/img/why-us.png');"
               data-aos="zoom-in"
               data-aos-delay="150"
+              
             >
               &nbsp;
             </div>
@@ -393,8 +398,8 @@
               data-aos="fade-left"
               data-aos-delay="100"
             >
-              <h3>
-                Voluptatem dignissimos provident quasi corporis voluptates
+              <h3 style='font-family: "Cooper", sans-serif;'>
+                Tokenomics
               </h3>
               <p class="fst-italic">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -404,7 +409,7 @@
               <div class="skills-content">
                 <div class="progress">
                   <span class="skill"
-                    >ERC Tokens <i class="val">10.000.000</i></span
+                    >Total Supply <i class="val">1.000.000.000</i></span
                   >
                   <div class="progress-bar-wrap">
                     <div
@@ -418,12 +423,12 @@
                 </div>
 
                 <div class="progress">
-                  <span class="skill">TEXT <i class="val">75%</i></span>
+                  <span class="skill">Community <i class="val">50% (500.000.000)</i></span>
                   <div class="progress-bar-wrap">
                     <div
                       class="progress-bar"
                       role="progressbar"
-                      aria-valuenow="75"
+                      aria-valuenow="50"
                       aria-valuemin="0"
                       aria-valuemax="100"
                     ></div>
@@ -431,20 +436,7 @@
                 </div>
 
                 <div class="progress">
-                  <span class="skill">TEXT <i class="val">55%</i></span>
-                  <div class="progress-bar-wrap">
-                    <div
-                      class="progress-bar"
-                      role="progressbar"
-                      aria-valuenow="55"
-                      aria-valuemin="0"
-                      aria-valuemax="100"
-                    ></div>
-                  </div>
-                </div>
-
-                <div class="progress">
-                  <span class="skill">Members <i class="val">5.000</i></span>
+                  <span class="skill">DEX Liquidity <i class="val">30% (300.000.000)</i></span>
                   <div class="progress-bar-wrap">
                     <div
                       class="progress-bar"
@@ -455,6 +447,33 @@
                     ></div>
                   </div>
                 </div>
+
+                <div class="progress">
+                  <span class="skill">Subscriptions and Memberships <i class="val">15% (150.000.000)</i></span>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="15"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
+                <div class="progress">
+                  <span class="skill">Airdrops AND Drops <i class="val">5% (50.000.000)</i></span>
+                  <div class="progress-bar-wrap">
+                    <div
+                      class="progress-bar"
+                      role="progressbar"
+                      aria-valuenow="5"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    ></div>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -545,7 +564,9 @@
         <div class="container" data-aos="zoom-in">
           <div class="row">
             <div class="col-lg-9 text-center text-lg-start">
-              <h3>Goal of ERC Connect</h3>
+              <h3 style="font-size: 40px; background: linear-gradient(#E0B1CB 50%, #BE95C4 75%);
+              background-clip: text;
+              -webkit-text-fill-color: transparent;">Goal of ERC Connect</h3>
               <p>
                 Duis aute irure dolor in reprehenderit in voluptate velit esse
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
@@ -554,7 +575,7 @@
               </p>
             </div>
             <div class="col-lg-3 cta-btn-container text-center">
-              <a class="cta-btn align-middle" href="#">Call To Action</a>
+              <a class="cta-btn align-middle" href="signup.html">Create an Account</a>
             </div>
           </div>
         </div>
@@ -582,257 +603,145 @@
           >
             <li data-filter="*" class="filter-active">All</li>
             <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Service</li>
-            <li data-filter=".filter-web">Web</li>
+            <li data-filter=".filter-service">Service</li>
+            <li data-filter=".filter-token">Token</li>
           </ul>
 
           <div
             class="row portfolio-container"
             data-aos="fade-up"
             data-aos-delay="200"
+            
           >
+          
+          
+
+          <a 
+          href="../ercbulls"
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-service">
+              <div style="margin: 5px;" class="portfolio-img">
+                <img
+                  src="assets/img/portfolio/ercbulls.jpg"
+                  class="img-fluid"
+                  alt=""/>
+              </div>
+            </div>
+          </a>
+
+          <a
+          href="../ercplace/"
+          class="details-link"
+          title="More Details">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/ercbulls.svg"
+                  src="assets/img/portfolio/ercplace.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>ERC Bulls</h4>
-                <p>Official nft collection of El Rincón Crypto</p>
-                <a
-                  href="assets/img/portfolio/ercbulls.png"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="ERC Bulls"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/test-image.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
-              </div>
-            </div>
-
+          <a
+          href=""
+          class="details-link"
+          title="More Details">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/test-image.jpg"
+                  src="assets/img/portfolio/erckouchi.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
+          <a
+          href=""
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-service">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/test-image.jpg"
+                  src="assets/img/portfolio/erclootbox.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-img">
+          <a
+          href=""
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-service">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/test-image.jpg"
+                  src="assets/img/portfolio/ercshop.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 2"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
+          <a
+          href="#member"
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-service">
+              <div style="margin: 5px;" class="portfolio-img">
+                <img
+                  src="assets/img/portfolio/ercpass.jpg"
+                  class="img-fluid"
+                  alt=""/>
+              </div>
+            </div>
+          </a>
+
+          <a
+          href=""
+          class="details-link"
+          title="More Details">
             <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <div class="portfolio-img">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/test-image.jpg"
+                  src="assets/img/portfolio/ercwhisper.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
+          <a
+          href="https://bit.ly/trade-ercc"
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter-token">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
-                  src="assets/img/portfolio/test-image.jpg"
+                  src="assets/img/portfolio/erctoken.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 1"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <div class="portfolio-img">
+          <a
+          href=""
+          class="details-link"
+          title="More Details">
+            <div class="col-lg-4 col-md-6 portfolio-item filter">
+              <div style="margin: 5px;" class="portfolio-img">
                 <img
                   src="assets/img/portfolio/test-image.jpg"
                   class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Card 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
+                  alt=""/>
               </div>
             </div>
+          </a>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <div class="portfolio-img">
-                <img
-                  src="assets/img/portfolio/test-image.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-              </div>
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a
-                  href="assets/img/portfolio/test-image.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 3"
-                  ><i class="bx bx-plus"></i
-                ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
-                ></a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
@@ -860,7 +769,7 @@
               >
                 <div class="pic">
                   <img
-                    src="assets/img/team/pablo.jpg"
+                    src="https://images-ext-1.discordapp.net/external/HZEYmlADRS0gv-CG0U3J1W2gs3QU-itGN8WSHX0V78M/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/435230887798505473/11f11331073090bc016e4a3f2dbfe47f.png?format=webp&quality=lossless&width=230&height=230"
                     class="img-fluid"
                     alt=""
                   />
@@ -873,10 +782,9 @@
                     Cryptocurrencies.
                   </p>
                   <div class="social">
-                    <a href=""><i class="ri-twitter-fill"></i></a>
-                    <a href=""><i class="ri-facebook-fill"></i></a>
-                    <a href=""><i class="ri-instagram-fill"></i></a>
-                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    <a href="https://www.youtube.com/c/ElRincónCrypto"><i class="ri-youtube-fill"></i></a>
+                    <a href="https://x.com/elrinconcrypto8"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://t.me/El_rincon_crypto"><i class="ri-telegram-fill"></i></a>
                   </div>
                 </div>
               </div>
@@ -889,17 +797,17 @@
                 data-aos-delay="100"
               >
               <div class="pic">
-                <img src="assets/img/team/ray.jpg" class="img-fluid" alt="" />
+                <img src="https://images-ext-1.discordapp.net/external/qkU3ePq4uNB8OzXnG-lkOTqesIVSwHd-yi8PVU7mbc0/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/699293678354825217/d46a97041722f3641875fc43d216f341.png?format=webp&quality=lossless&width=670&height=670" class="img-fluid" alt="" />
               </div>
               <div class="member-info">
                 <h4>Rayelus</h4>
-                <span>Graphic Designer, Admin & Owner of ERC Connect</span>
-                <p style="color: #000">Creating always something new.</p>
+                <span>Graphic Designer, Developer, Admin & Owner of ERC Connect</span>
+                <p style="color: #000">Idea machine and devourer of new technologies.</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://x.com/rayelus5"><i class="ri-twitter-fill"></i></a>
+                  <a href="https://instagram.com/rayelus.es"><i class="ri-instagram-fill"></i></a>
+                  <a href="https://www.linkedin.com/in/rayelus/"><i class="ri-linkedin-fill"></i></a>
+                  <a href="https://github.com/Rayelus5"> <i class="ri-github-fill"></i> </a>
                 </div>
                 </div>
               </div>
@@ -913,20 +821,17 @@
               >
               <div class="pic">
                 <img
-                  src="assets/img/team/fosky.jpg"
+                  src="https://images-ext-1.discordapp.net/external/TdhVyQ2nh7eUW_u014u90ijzA8aThsLBXIuTCAPeCTE/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/904108577994715186/e439ac3de71bffaa3199851ee85edfa0.png?format=webp&quality=lossless&width=670&height=670"
                   class="img-fluid"
                   alt=""
                 />
               </div>
               <div class="member-info">
                 <h4>Fosky</h4>
-                <span>Administrator & Discord Mod</span>
+                <span>Admin, Discord Mod and Content Creator on X</span>
                 <p style="color: #000">Creator of opportunities.</p>
                 <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                  <a href="https://x.com/Fosky68"><i class="ri-twitter-fill"></i></a>
                 </div>
                 </div>
               </div>
@@ -940,20 +845,19 @@
               >
                 <div class="pic">
                   <img
-                    src="assets/img/team/nuria.jpg"
+                    src="https://images-ext-1.discordapp.net/external/4Cyerk2bDEv8wXRLM1BxS-66HLC7r1DOQzK1xbgHYt4/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1049227005700354109/5088453cb8789801eebe40c3d526fa04.png?format=webp&quality=lossless&width=431&height=431"
                     class="img-fluid"
                     alt=""
                   />
                 </div>
                 <div class="member-info">
                   <h4>NuriaPei</h4>
-                  <span>Administrator & Discord Mod</span>
+                  <span>Administrator and Discord Mod</span>
                   <p style="color: #000">Next destiny, to the moon.</p>
                   <div class="social">
-                    <a href=""><i class="ri-twitter-fill"></i></a>
-                    <a href=""><i class="ri-facebook-fill"></i></a>
-                    <a href=""><i class="ri-instagram-fill"></i></a>
-                    <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                    <a href="https://x.com/NuriaAl12207147"><i class="ri-twitter-fill"></i></a>
+                    <a href="https://warpcast.com/nuria"><img style="border-radius: 100px;" width="17px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fplay-lh.googleusercontent.com%2FcRcdfJ01plmO9AhusWRZ1uyrjcYbbMMiyqTakPEHatoNVEzxtFt-78GJ7IZX-1cd2Vz2&f=1&nofb=1&ipt=bc9420dcd56742e1fbf9aa22bf6436a808fa04d27115858a5c687230d2fcd899&ipo=images"></a>
+                    <a href="https://far.quest/nuria"><img style="border-radius: 100px;" width="17px" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.imgur.com%2FZgW9WB7.jpg&f=1&nofb=1&ipt=d067505783fdad6d5e7fcf91581d39116a3582d18b28e01bf3f86cca507b08a7&ipo=images"></a>
                   </div>
                 </div>
               </div>
@@ -981,14 +885,15 @@
           <div class="row">
             <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
               <div class="box">
-                <h3>Free User</h3>
-                <h4><sup>$</sup>0<span></span></h4>
+                <h3 style="font-size: 45px;">Free 🎈</h3>
+                <h4 style="font-weight: 500;"><sup>$</sup>0<span>Lifetime</span></h4>
                 <ul>
+                  <li><i class="bx bx-check"></i> Lifetime</li>
                   <li><i class="bx bx-check"></i> Zealy tasks</li>
                   <li><i class="bx bx-check"></i> Eligibility for airdrops</li>
                   <li><i class="bx bx-check"></i> ERC added to your wallet</li>
                   <li class="na">
-                    <i class="bx bx-x"></i> <span>Use apps and services</span>
+                    <i class="bx bx-x"></i> <span>Use apps and services early</span>
                   </li>
                   <li class="na">
                     <i class="bx bx-x"></i> <span>ERC tokens per month</span>
@@ -999,7 +904,11 @@
                   </li>
                   <li class="na">
                     <i class="bx bx-x"></i>
-                    <span>Exclusive services and content</span>
+                    <span>Exclusive content and gifts</span>
+                  </li>
+                  <li class="na">
+                    <i class="bx bx-x"></i>
+                    <span>Official Merchandishing</span>
                   </li>
                 </ul>
                 <!--<a href="#" class="buy-btn">Get Started</a>-->
@@ -1012,24 +921,32 @@
               data-aos-delay="200"
             >
               <div class="box featured">
-                <h3>Member 🔥</h3>
-                <h4><sup>$</sup>15<span>lifetime</span></h4>
+                <h3 style="font-size: 45px;">Member 🔥</h3>
+                <h4 style="font-weight: 500;"><sup>$</sup>50<span>Per year</span></h4>
                 <ul>
-                  <li><i class="bx bx-check"></i> Zealy tasks</li>
+                  <li><i class="bx bx-check"></i> 2024 and 2025 are included</li>
+                  <li><i class="bx bx-check"></i> Zealy tasks +</li>
                   <li><i class="bx bx-check"></i> Eligibility for airdrops</li>
-                  <li><i class="bx bx-check"></i> ERC added to your wallet</li>
-                  <li><i class="bx bx-check"></i> Use apps and services</li>
-                  <li><i class="bx bx-check"></i> 250 ERC tokens per month</li>
+                  <li><i class="bx bx-check"></i> ERCC added to your wallet</li>
+                  <li><i class="bx bx-check"></i> Use apps and services early</li>
+                  <li><i class="bx bx-check"></i> 15.000 ERCC tokens per month</li>
                   <li class="na">
                     <i class="bx bx-x"></i>
                     <span>24/7 Support and assistance</span>
                   </li>
                   <li class="na">
                     <i class="bx bx-x"></i>
-                    <span>Exclusive services and content</span>
+                    <span>Exclusive content and gifts</span>
                   </li>
+                  <li class="na">
+                    <i class="bx bx-x"></i>
+                    <span>Official Merchandishing</span>
+                  </li>
+                  <li style="font-size: 14px; opacity: 0;">
+                    And more...
+                 </li>
                 </ul>
-                <a href="buy-member.html" class="buy-btn">Buy Now</a>
+                <a href="buy-member.html" class="buy-btn">Suscribe Now</a>
               </div>
             </div>
 
@@ -1039,22 +956,29 @@
               data-aos-delay="300"
             >
               <div class="box">
-                <h3>Premium Member ✨</h3>
-                <h4><sup>$</sup>40<span>lifetime</span></h4>
+                <h3 style="font-size: 45px;">Premium ✨</h3>
+                <h4 style="font-weight: 500;"><sup>$</sup>200<span>Per year</span></h4>
                 <ul>
-                  <li><i class="bx bx-check"></i> Zealy tasks</li>
+                  <li><i class="bx bx-check"></i> 2024 and 2025 are included</li>
+                  <li><i class="bx bx-check"></i> Zealy tasks ++</li>
                   <li><i class="bx bx-check"></i> Eligibility for airdrops</li>
-                  <li><i class="bx bx-check"></i> ERC added to your wallet</li>
-                  <li><i class="bx bx-check"></i> Use apps and services</li>
-                  <li><i class="bx bx-check"></i> 1500 ERC tokens per month</li>
+                  <li><i class="bx bx-check"></i> ERCC added to your wallet</li>
+                  <li><i class="bx bx-check"></i> Use apps and services early</li>
+                  <li><i class="bx bx-check"></i> 80.000 ERCC tokens per month</li>
                   <li>
                     <i class="bx bx-check"></i> 24/7 Support and assistance
                   </li>
                   <li>
-                    <i class="bx bx-check"></i> Exclusive services and content
+                    <i class="bx bx-check"></i> Exclusive content and gifts 🎁
+                  </li>
+                  <li>
+                    <i class="bx bx-check"></i> Official Merchandishing 👕
+                  </li>
+                  <li style="font-size: 14px; opacity: 0.7;">
+                     And more...
                   </li>
                 </ul>
-                <a href="buy-member-premium.html" class="buy-btn">Buy Now</a>
+                <a href="buy-member-premium.html" class="buy-btn">Suscribe Now</a>
               </div>
             </div>
           </div>
@@ -1066,7 +990,7 @@
       <section id="faq" class="faq section-bg">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>Frequently Asked Questions</h2>
+            <h2>FAQ</h2>
             <p>
               Magnam dolores commodi suscipit. Necessitatibus eius consequatur
               ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam

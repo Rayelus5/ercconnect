@@ -38,7 +38,7 @@ const init_pointer = (options) => {
 
     const getOption = (option) => {
         let defaultObj = {
-            pointerColor: "#566573",
+            pointerColor: "#BE95C4",
             ringSize: 15,
             ringClickSize: (options["ringSize"] || 15) - 5,
         }
@@ -57,7 +57,7 @@ const init_pointer = (options) => {
             pointer.style.borderColor = getOption("pointerColor")
             isHover = true
         } else {
-            pointer.style.borderColor = " #808b96 "
+            pointer.style.borderColor = " #9F86C0 "
             isHover = false
         }
         ring.style.borderColor = getOption("pointerColor")
