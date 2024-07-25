@@ -1,5 +1,11 @@
 const nextYear = (new Date()).getFullYear() + 1
-const nextYearDate = new Date(2023, 8, 6)
+const dia = 10
+const mes = 8
+const year = 2024
+
+
+
+const nextYearDate = new Date(year, mes - 1, dia)
 
 setInterval(() => {
   const todayDate = new Date()
