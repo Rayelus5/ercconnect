@@ -21,6 +21,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> 
     </script>
+    
 </head>
 
 <style>
@@ -158,6 +159,66 @@
   transition: 0.4s;
 }
 
+.espera-text {
+    font-size: 20px;
+  }
+
+@media only screen and (max-width: 991px) {
+  .form {
+    width: 450px;
+    height: 550px;
+  }
+  .title {
+    font-size: 40px;
+  }
+  .subtitle {
+    font-size: 12px;
+  }
+  .espera-text {
+    font-size: 15px;
+  }
+  .input {
+    font-size: 12px;
+  }
+  body {
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 491px) {
+  .form {
+    width: 300px;
+    height: 500px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .input-container {
+    font-size: 10px;
+  }
+  .input {
+    font-size: 10px;
+  }
+  .espacio {
+    height: 10px;
+  }
+  .espera-text {
+    font-size: 10px;
+  }
+  body {
+    top: 50%;
+    left: 50%;
+    height: auto;
+    width: auto;
+  }
+}
+
 </style>
 
 <body>
@@ -172,13 +233,12 @@
                   <input type="hidden" name="_subject" value="[ERC BULLS] - Whitelist CLAIM">
                   <input type="hidden" name="_captcha" value="false">
                   <input type="hidden" name="_template" value="table">
-
         <div class="title">Claim ERC Bulls Whitelist</div>
         <div class="subtitle">Paste your EVM wallet (POLYGON Network) ✅</div>
         <br><br>
 
-        <div style="height: 20px;"></div>
-        <h1 style="font-size: 20px; color: #bbbbbb; text-align: center; display: none;" id="wait">⚠️ Please Wait...</h1>
+        <div class="espacio"></div>
+        <h1 class="espera-text" style=" color: #bbbbbb; text-align: center; display: none;" id="wait">⚠️ Please Wait...</h1>
 
         <div class="input-container ic2">
           <input required name="wallet" id="wallet" class="input" type="text" placeholder="" />

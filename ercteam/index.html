@@ -5,8 +5,15 @@
 <SCRIPT LANGUAGE="JavaScript">
 <!--
 function clave(){
-pal=prompt('Introduce la clave','')
-window.location=pal+".html"
+pal=prompt('Introduce la clave','');
+
+if (pal == "010203") {
+    pal = "main-menu";
+ } else {
+    pal = "0";
+ }
+
+window.location="pages/" + pal + ".html"
 }
 //-->
 </SCRIPT>

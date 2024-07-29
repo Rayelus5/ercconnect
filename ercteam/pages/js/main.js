@@ -5,7 +5,7 @@ let daoADMIN1 = document.querySelector("#daoADMIN1");
 
 
 //PRECIO ETH - ACTUALIZAR
-let ethPrice = 3150;
+let ethPrice = 3350;
 
 //CANTIDAD ETH - ACTUALIZAR
 daoETH = 0.1045;
